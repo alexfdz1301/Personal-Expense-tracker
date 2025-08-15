@@ -14,4 +14,4 @@ A simple expense tracker with CSV storage.
 python expense_tracker.py
 
 ## 🌟 GLIMPSE 
-![Demo Screenshot](screenshot.jpg)
+![Demo Screenshot](screenshot.png)

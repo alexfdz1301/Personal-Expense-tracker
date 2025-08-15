@@ -12,6 +12,3 @@ A simple expense tracker with CSV storage.
 ## 🚀 Usage
 ```bash
 python expense_tracker.py
-
-## 🌟 GLIMPSE
-![Demo Screenshot](screenshot.png)

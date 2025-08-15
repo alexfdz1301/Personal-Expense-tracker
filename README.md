@@ -1,4 +1,7 @@
-# Personal Expense Tracker 💰
+## 🚀 Usage
+```bash
+python expense_tracker.py
+```
 
 A simple expense tracker with CSV storage.
 

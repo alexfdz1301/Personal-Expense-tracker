@@ -1,7 +1,5 @@
-## 🚀 Usage
-```bash
-python expense_tracker.py
-```
+# PERSONAL EXPENSE TRACKER 💰 💰 
+
 
 A simple expense tracker with CSV storage.
 

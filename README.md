@@ -33,3 +33,8 @@ No signup, no cloud — just your data in a `.csv` file!
 ```bash
 git clone https://github.com/alexfdz1301/Personal-Expense-tracker.git
 cd Personal-Expense-tracker
+
+## 📸 Screenshot
+Here’s how the app looks when running:
+
+![Expense Tracker Screenshot](screenshot.png)

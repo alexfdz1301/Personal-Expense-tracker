@@ -112,3 +112,35 @@ while True:
         break
     else:
         print("⚠️ Invalid option. Please choose between 1–5.\n")
+
+import csv
+import os
+
+FILE_NAME = "expenses.csv"
+expenses = []
+
+# Load expenses from CSV (if exists)
+def load_expenses():
+    if os.path.exists(FILE_NAME):
+        with open(FILE_NAME, newline='', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                expenses.append(row)
+
+# Save expenses to CSV
+def save_expenses():
+    with open(FILE_NAME, "w", newline='', encoding='utf-8') as f:
+        fieldnames = ["Date", "Category", "Amount"]
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+
+        writer.writeheader()        # write headers at the top
+        writer.writerows(expenses)  # write all data
+
+# Add a new expense
+def add_expense(date, category, amount):
+    expenses.append({
+        "Date": date,
+        "Category": category,
+        "Amount": amount
+    })
+    save_expenses()  # ensure file is updated

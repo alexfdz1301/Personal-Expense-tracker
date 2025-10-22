@@ -1,4 +1,4 @@
-# 💰 Personal Expense Tracker
+# Personal Expense Tracker
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
@@ -9,15 +9,15 @@ No signup, no cloud — just your data in a `.csv` file!
 
 ---
 
-## ✨ Features
-- ✅ Add, list, and delete expenses  
-- ✅ Auto-saves your entries in `expenses.csv`  
-- ✅ Handles wrong inputs gracefully  
-- ✅ Works completely offline (needs only Python 3)  
+##  Features
+-  Add, list, and delete expenses  
+-  Auto-saves your entries in `expenses.csv`  
+-  Handles wrong inputs gracefully  
+-  Works completely offline (needs only Python 3)  
 
 ---
 
-## 📂 File Structure
+##  File Structure
 | File                | Purpose                                   |
 |---------------------|-------------------------------------------|
 | `expense_tracker.py` | Main application code                     |

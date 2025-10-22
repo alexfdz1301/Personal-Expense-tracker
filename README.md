@@ -28,7 +28,7 @@ No signup, no cloud — just your data in a `.csv` file!
 ---
 
 
-## 📸 Screenshot
+##  Screenshot
 Here’s how the app looks when running
 
 ![Expense Tracker Screenshot](screenshot.png)
